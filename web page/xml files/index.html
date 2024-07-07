@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            My Webpage
+        </title>
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                font-family: Arial, sans-serif;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .top-frame {
+                height: 50px;
+                background-color: #f1f1f1;
+                display: flex;
+                justify-content: space-around; /* Adjust alignment as needed */
+                align-items: center;
+                padding: 10px;
+            }
+            .content {
+                display: flex;
+                flex: 1;
+            }
+            .left-frame {
+                width: 200px;
+                background-color: #f9f9f9;
+                padding: 10px;
+                box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            }
+            .right-frame {
+                flex: 1;
+            }
+            a {
+                display: block;
+                margin: 0 10px; /* Adjust spacing between links */
+                text-decoration: none;
+                color: #000;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="top-frame">
+                <a href="book.html" target="right-frame">Book</a>
+                <a href="courses.html" target="right-frame">Courses</a>
+            </div>
+            <div class="content">
+                <div class="left-frame">
+                    <a href="signup.html" target="right-frame">Book</a>
+                    <a href="login.html" target="right-frame">Courses</a>
+                </div>
+                <iframe class="right-frame" name="right-frame" src="home.html" frameborder="0"></iframe>
+            </div>
+        </div>
+    </body>
+</html>
