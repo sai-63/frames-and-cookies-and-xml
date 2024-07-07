@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Bookstore.xsl"?>
+<bookstore>
+<book>
+<title>Everyday Italian</title>
+<author>Giada De Laurentiis</author>
+<year>2005</year>
+<publisher>kranthi</publisher>
+<edition>11</edition>
+<price>30.00</price>
+</book>
+<book>
+<title>Harry Potter</title>
+<author>J K. Rowling</author>
+<year>2005</year>
+<publisher>kranthi</publisher>
+<edition>09</edition>
+<price>29.99</price>
+</book>
+<book>
+<title>Learning XML</title>
+<author>Erik T. Ray</author>
+<year>2003</year>
+<publisher>kranthi</publisher>
+<edition>10</edition>
+<price>39.95</price>
+</book>
+<book>
+<title>C++</title>
+<author>Balamurgan</author>
+<year>2004</year>
+<publisher>kranthi</publisher>
+<edition>15</edition>
+<price>40</price>
+</book>
+</bookstore>
